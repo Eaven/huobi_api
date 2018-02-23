@@ -6,8 +6,8 @@ module HuobiApi
     end
 
     def balances(id)
-      options ={
-        'account-id': id
+      options = {
+        'account-id' => id
       }
 
       endpoint = "/v1/account/accounts/#{id}/balance"
